@@ -22,9 +22,9 @@ void wagTail() {
 
 public class InheritanceP {
     public static void main(String[] args) {
-        Animal myAnimal = new Animal("Generic Animal b n ");
+        Animal myAnimal = new Animal("Generic Animal ");
         myAnimal.makeSound();
-        Dog mydog = new Dog("Buddy");
+        Dog mydog = new Dog("Buddy ");
         mydog.makeSound();
         mydog.wagTail();
     }
